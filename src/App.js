@@ -4,7 +4,8 @@ import Component1 from './Component1';
 
 function App() {
   let [num, setNum] = useState(1);
-  let name = '조성훈'
+
+  let name = '조성훈';
 
   return (
     <div className="App">
@@ -12,8 +13,7 @@ function App() {
       <button onClick={() => {
         setNum(num + 1);
       }} >Button</button>
-      <div>{num}</div>
-      <Component1 />
+      <Component1 name={name} />
     </div>
   );
 }
