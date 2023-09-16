@@ -5,9 +5,9 @@ import Component1 from './Component1';
 function App() {
   let [num, setNum] = useState(1);
   const info = {
-    이름: '조성훈',
-    나이: 25,
-    성별: '남'
+    name : '조성훈',
+    age : 25,
+    gender : '남'
   }
 
   return (
