@@ -7,6 +7,9 @@ function Component1(props) {
                 <li>이름: {props.info.name}</li>
                 <li>나이: {props.info.age}</li>
                 <li>성별: {props.info.gender}</li>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
             </ol>
         </div>
     )
